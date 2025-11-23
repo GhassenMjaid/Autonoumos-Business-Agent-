@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# Data files (optional - if your database is too large)
+# data/*.db
+
+# Visualizations (generated files)
+visualizations/*.png
+
+# API Keys and secrets
+.env
+*.key
+config.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Excel exports
+*.xlsx
+*.csv
+results_*.xlsx
+results_*.csv
