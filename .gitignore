@@ -1,0 +1,37 @@
+@"
+# API Keys and Secrets
+*.key
+.env
+agent/test_*.py
+test_*.py
+
+# Data folder (contains large database and CSV files)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+ENV/
+
+# Generated files
+visualizations/*.png
+results_*.xlsx
+results_*.csv
+*.xlsx
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
